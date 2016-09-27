@@ -67,6 +67,19 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
 }
+  
+@font-face {
+	font-family: 'League Spartan';
+	src: url('../fonts/leaguespartan-bold.eot');
+	src: url('../fonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/leaguespartan-bold.woff2') format('woff2'),
+		 url('../fonts/leaguespartan-bold.woff') format('woff'),
+		 url('../fonts/leaguespartan-bold.ttf') format('truetype'),
+		 url('../fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+
+}
 
 /* normalize.css 2012-02-07T12:37 UTC - https://github.com/necolas/normalize.css */
 /* =============================================================================
@@ -534,20 +547,29 @@ body {
   font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #f0e7d5;
   font-weight: normal;
-  background: #252525;
+  /*background: #252525;*/
+  background: #2a2d34;
   background-attachment: fixed !important;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2a2a29), color-stop(100%, #1c1c1c));
+  /*background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2a2a29), color-stop(100%, #1c1c1c));
   background: -webkit-linear-gradient(#2a2a29, #1c1c1c);
   background: -moz-linear-gradient(#2a2a29, #1c1c1c);
   background: -o-linear-gradient(#2a2a29, #1c1c1c);
   background: -ms-linear-gradient(#2a2a29, #1c1c1c);
-  background: linear-gradient(#2a2a29, #1c1c1c);
+  background: linear-gradient(#2a2a29, #1c1c1c);*/
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #33373f), color-stop(100%, #2a2d34));
+  background: -webkit-linear-gradient(#33373f, #2a2d34);
+  background: -moz-linear-gradient(#33373f, #2a2d34);
+  background: -o-linear-gradient(#33373f, #2a2d34);
+  background: -ms-linear-gradient(#33373f, #2a2d34);
+  background: linear-gradient(#33373f, #2a2d34)
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #e8e8e8;
+  /*color: #e8e8e8;*/
+  color: #54f2f2;
   margin: 0 0 10px;
-  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: "League Spartan", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 
@@ -574,7 +596,7 @@ h4, h5, h6 {
 h3 {
   font-size: 18px;
   line-height: 24px;
-  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  /*font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif !important;*/
   font-weight: normal;
   color: #b6b6b6;
 }
@@ -793,15 +815,18 @@ section #title {
   padding: 0 0 5px 0;
 }
 section #title h1 {
-  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'League Spartan', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 40px;
   text-align: center;
   line-height: 36px;
 }
 section #title p {
-  color: #d7cfbe;
-  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*color: #d7cfbe;*/
+  color: #dddddd;
+  /*font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 18px;
   text-align: center;
